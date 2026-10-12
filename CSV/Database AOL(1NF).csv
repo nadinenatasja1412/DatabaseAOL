@@ -1,0 +1,32 @@
+﻿FormNo,Cabang,NasabahKode,NasabahNama,NasabahMTBI,Nasabah_Tgl_TTD,Agen_Kode,Agen_Nama,Agen_Tgl_TTD,AO_Kode,AO_Nama,AO_Tgl_TTD,BMngr_Kode,BMngr_Nama,BMngr_Tgl_TTD,TransaksiJenis,Kode_RD,Kode_RD_Tujuan,TransaksiNominal,TransaksiFee_Persen
+NF001,Jakarta,NAS01 , Budi Santoso ,12301, 01/10/2025,AGN001,Hidaus,1/10/2025,MKT012,Stanley Ho,1/11/2025,BMC004, Jaguar , 01/12/2025,Pembelian,PT001,NULL,Rp10.000.000,1
+NF001,Jakarta,NAS01 , Budi Santoso ,12301, 01/10/2025,AGN001,Hidaus,1/10/2025,MKT012,Stanley Ho,1/11/2025,BMC004, Jaguar , 01/12/2025,Pembelian,PT002,NULL,Rp5.000.000,1
+NF002,Bandung,NAS02 , Siti Aminah ,12302, 02/15/2025,AGN002,Lauren Stephani,2/15/2025,MKT006,Napoleon,2/16/2025,BMC001, Kaedehara , 02/17/2025,Penjualan,PT001,NULL,Rp5.000.000,0.5
+NF003,Surabaya,NAS03 , PT Maju Jaya ,12303, 03/25/2025,AGN006,Lion Hausan,3/25/2025,MKT005,Bonaporte,3/26/2025,BMC007, Timothy Ronald, 03/27/2025,Pengalihan,PT001,PT021,Rp5.000.000,0
+NF004,Medan,NAS04 , Andi Saputra ,12304, 04/8/2025,AGN003,Antonius Sumantho,4/9/2025,MKT011,Juan Ren,4/10/2025,BMC002, Mark Gozeburg, 04/11/2025,Pembelian,PT003,NULL,Rp2.500.000,1
+NF004,Medan,NAS04 , Andi Saputra ,12304, 04/8/2025,AGN003,Antonius Sumantho,4/9/2025,MKT011,Juan Ren,4/10/2025,BMC002, Mark Gozeburg, 04/11/2025,Pembelian,PT004,NULL,Rp1.000.000,1
+NF004,Medan,NAS04 , Andi Saputra ,12304, 04/8/2025,AGN003,Antonius Sumantho,4/9/2025,MKT011,Juan Ren,4/10/2025,BMC002, Mark Gozeburg, 04/11/2025,Penjualan,PT002,NULL,Rp5.000.000,0.5
+NF005,Jakarta,NAS05 , Rina Kartika ,12305, 05/15/2025,AGN007,Agustinus Bahru,5/16/2025,MKT012,Stanley Ho,5/17/2025,BMC009, Jason Minie , 05/18/2025,Pengalihan,PT021,PT007,Rp10.000.000,0.5
+NF006,Padang,NAS06 , Ernez Prakasa ,12306, 06/1/2025,AGN001,Hidaus,6/2/2025,MKT003,Kagura Putri,6/3/2025,BMC008, Peter Lantur , 06/5/2025,Penjualan,PT003,NULL,Rp7.500.000,0.5
+NF007,Padang,NAS07 , Gilang Salim ,12307, 07/11/2025,AGN012,Peony Harten,7/11/2025,MKT010,Natalie Lien,7/12/2025,BMC003, Jeremy Arlio , 07/13/2025,Penjualan,PT004,NULL,Rp3.000.000,0.25
+NF008,Malang,NAS08 , Jokodi Hartono ,12308, 10/20/2025,AGN008,Steven Kron,10/20/2025,MKT017,Mikael Angelo,10/21/2025,BMC005, Arly Manopo , 10/22/2025,Pembelian,PT005,NULL,Rp8.500.000,1
+NF009,Surabaya,NAS09 , Lil Bahlil Silih ,12309, 11/12/2025,AGN009,Asep Mujair,11/12/2025,MKT005,Bonaporte,11/13/2025,BMC004, Jaguar , 11/15/2025,Pengalihan,PT030,PT022,Rp10.000.000,0.5
+NF009,Surabaya,NAS04 , Andi Saputra ,12304, 11/12/2025,AGN009,Asep Mujair,11/12/2025,MKT005,Bonaporte,11/13/2025,BMC004, Jaguar , 11/15/2025,Penjualan,PT003,NULL,Rp7.500.000,1.5
+NF010,Medan,NAS10 , Purbaya widodo ,12310, 12/12/2025,AGN005,Elvin Dolphin ,12/12/2025,MKT003,Kagura Putri,12/13/2025,BMC006, Lionel , 12/14/2025,Pengalihan,PT004,PT022,Rp10.000.000,0.5
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,

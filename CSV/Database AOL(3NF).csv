@@ -1,0 +1,52 @@
+﻿3NF,,,,,,,,,,,,,
+X Transitive FD,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+FormNo,Cabang,NasabahKode,Nasabah_Tgl_TTD,Agen_Kode,Agen_Tgl_TTD,AO_Kode,AO_Tgl_TTD,BMngr_Kode,BMngr_Tgl_TTD,,Pegawai Table,,
+NF001,Jakarta,NAS01 , 01/10/2025,AGN001,1/10/2025,MKT012,1/11/2025,BMC004, 01/12/2025,,Pegawai_Kode,Agen_Nama,JabatanID
+NF002,Bandung,NAS02 , 02/15/2025,AGN002,2/15/2025,MKT006,2/16/2025,BMC001, 02/17/2025,,AGN001,Hidaus,J003
+NF003,Surabaya,NAS03 , 03/25/2025,AGN006,3/25/2025,MKT005,3/26/2025,BMC007, 03/27/2025,,AGN002,Lauren Stephani,J003
+NF004,Medan,NAS04 , 04/8/2025,AGN003,4/9/2025,MKT011,4/10/2025,BMC002, 04/11/2025,,AGN006,Lion Hausan,J003
+NF005,Jakarta,NAS05 , 05/15/2025,AGN007,5/16/2025,MKT012,5/17/2025,BMC009, 05/18/2025,,AGN003,Antonius Sumantho,J003
+NF006,Padang,NAS06 , 06/1/2025,AGN001,6/2/2025,MKT003,6/3/2025,BMC008, 06/5/2025,,AGN007,Agustinus Bahru,J003
+NF007,Padang,NAS07 , 07/11/2025,AGN012,7/11/2025,MKT010,7/12/2025,BMC003, 07/13/2025,,AGN012,Peony Harten,J003
+NF008,Malang,NAS08 , 10/20/2025,AGN008,10/20/2025,MKT017,10/21/2025,BMC005, 10/22/2025,,AGN008,Steven Kron,J003
+NF009,Surabaya,NAS09 , 11/12/2025,AGN009,11/12/2025,MKT005,11/13/2025,BMC004, 11/15/2025,,AGN009,Asep Mujair,J003
+NF010,Medan,NAS10 , 12/12/2025,AGN005,12/12/2025,MKT003,12/13/2025,BMC006, 12/14/2025,,AGN005,Elvin Dolphin ,J003
+,,,,,,,,,,,MKT012,Stanley Ho,J002
+,,,,,,,,,,,MKT006,Napoleon,J002
+Transaction Detail Table,,,,,,,Nasabah Table,,,,MKT005,Bonaporte,J002
+FormNo,Kode_RD,TransaksiJenis,Kode_RD_Tujuan,TransaksiNominal,TransaksiFee_Persen,,NasabahKode,NasabahNama,NasabahMTBI,,MKT011,Juan Ren,J002
+NF001,PT001,Pembelian,NULL,Rp10.000.000,1,,NAS01 , Budi Santoso ,12301,,MKT003,Kagura Putri,J002
+NF001,PT002,Pembelian,NULL,Rp5.000.000,1,,NAS02 , Siti Aminah ,12302,,MKT010,Natalie Lien,J002
+NF002,PT001,Penjualan,NULL,Rp5.000.000,0.5,,NAS03 , PT Maju Jaya ,12303,,MKT017,Mikael Angelo,J002
+NF003,PT001,Pengalihan,PT021,Rp5.000.000,0,,NAS04 , Andi Saputra ,12304,,BMC004, Jaguar ,J001
+NF004,PT003,Pembelian,NULL,Rp2.500.000,1,,NAS05 , Rina Kartika ,12305,,BMC001, Kaedehara ,J001
+NF004,PT004,Pembelian,NULL,Rp1.000.000,1,,NAS06 , Ernez Prakasa ,12306,,BMC007, Timothy Ronald,J001
+NF004,PT002,Penjualan,NULL,Rp5.000.000,0.5,,NAS07 , Gilang Salim ,12307,,BMC002, Mark Gozeburg,J001
+NF005,PT021,Pengalihan,PT007,Rp10.000.000,0.5,,NAS08 , Jokodi Hartono ,12308,,BMC009, Jason Minie ,J001
+NF006,PT003,Penjualan,NULL,Rp7.500.000,0.5,,NAS09 , Lil Bahlil Silih ,12309,,BMC008, Peter Lantur ,J001
+NF007,PT004,Penjualan,NULL,Rp3.000.000,0.25,,NAS10 , Purbaya widodo ,12310,,BMC003, Jeremy Arlio ,J001
+NF008,PT005,Pembelian,NULL,Rp8.500.000,1,,,,,,BMC005, Arly Manopo ,J001
+NF009,PT030,Pengalihan,PT022,Rp10.000.000,0.5,,Jabatan Table,,,,BMC006, Lionel ,J001
+NF009,PT003,Penjualan,NULL,Rp7.500.000,1.5,,JabatanID,JabatanName,,,,,
+NF010,PT004,Pengalihan,PT022,Rp10.000.000,0.5,,J001,Branch Manager,,,,,
+,,,,,,,J002,Account Officer,,,,,
+,,,,,,,J003,Agen Penjual,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
