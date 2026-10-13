@@ -6,5 +6,6 @@
 <p>Tabel masih mentah, seringkali berisi nilai ganda (repeating groups) atau data yang belum terstruktur dalam bentuk baris dan kolom yang rapi.</p>
 <p>Contoh pada kolom Data Nasabah, Agen, Branch Manager, dan Transaksi</p>
 
+
 ##
 ``
