@@ -10,7 +10,6 @@
 
 ##
 
-
 <h2>1NF</h2>
 <h3>1NF (First Normalized Form) adalah olahan dari UNF yang dipecah menjadi 1 data per kolom. </h3>
 
@@ -21,4 +20,15 @@
 <p> Pisahkan Primary Key / Id/ Kode yang penting menjadi 1 tabel lainnya demi menghilangkan grup yang berulang dan memastikan data berbentuk tabel dua dimensi yang sederhana.</p>
 
 ##
+
+<h2>2NF</h2>
+<h3>2NF (Second Normalized Form) adalah olahan dari 1NF yang telah diperbaiki. </h3>
+
+<p>Tabel bertambah, tidak hanya 1 tetapi muncul tabel primary/utama yang bisa di-foreign. Semua atribut non-kunci (yang bukan bagian dari primary key) bergantung sepenuhnya pada keseluruhan primary key (bukan hanya sebagian jika primary key-nya berupa composite key atau kunci gabungan).</p>
+<p>Contoh pada kolom Data Nasabah, tabel baru terbentuk akan data NasabahKode dan NasabahNama</p>
+
+<h3> Cara 🛠 Memperbaiki dan 🚀Naik Level ke 3NF </h3>
+<p>Hilangkan ketergantungan sebagian (partial functional dependency) => artibut non kunci bergantung dengan atribut non kunci lainnya. Jika ada atribut yang hanya bergantung pada separuh kunci gabungan, atribut tersebut harus dipisah ke tabel baru.</p>
+##
+
 ``
