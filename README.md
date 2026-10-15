@@ -28,7 +28,16 @@
 <p>Contoh pada kolom Data Nasabah, tabel baru terbentuk akan data NasabahKode dan NasabahNama</p>
 
 <h3> Cara 🛠 Memperbaiki dan 🚀Naik Level ke 3NF </h3>
-<p>Hilangkan ketergantungan sebagian (partial functional dependency) => artibut non kunci bergantung dengan atribut non kunci lainnya. Jika ada atribut yang hanya bergantung pada separuh kunci gabungan, atribut tersebut harus dipisah ke tabel baru.</p>
+<p>Hilangkan ketergantungan (transitive dependency) => artibut non kunci bergantung dengan atribut non kunci lainnya. Jika ada atribut yang hanya bergantung pada atribut non kunci lainnya, atribut tersebut harus dipisah ke tabel baru.</p>
 ##
 
-``
+
+<h2>3NF</h2>
+<h3>3NF (Third Normalized Form) adalah olahan dari 2NF yang telah dihilangkan transitive dependency nya </h3>
+
+<p>Tabel yang ada sudah tidak memiliki redundansi data yang disebabkan oleh atribut non-kunci yang saling berkaitan, lalu memindahkannya ke tabel relasi baru.</p>
+<p>Contoh pada kolom Data Nasabah, tabel baru terbentuk akan data NasabahKode dan NasabahNama</p>
+
+<h3> Cara 🛠 Memperbaiki dan 🚀Naik Level ke 3NF </h3>
+<p>Hilangkan ketergantungan sebagian (partial functional dependency) => artibut non kunci bergantung dengan atribut non kunci lainnya. Jika ada atribut yang hanya bergantung pada separuh kunci gabungan, atribut tersebut harus dipisah ke tabel baru.</p>
+##
